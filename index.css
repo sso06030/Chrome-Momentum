@@ -1,17 +1,41 @@
 body{
     background-color: #6c8085;
+    color:white;
+    text-align: center;
+    line-height: 200%;
   }
 
-.btn{
+  .js-toDoList {
+    list-style: none;
+  }
+
+  button {
+    background:rgba(0,0,0,0);
+    border-color: transparent;
     cursor: pointer;
-}
-
-  body{
-    color:#34495e;
+  }
+  .js-form{
+    font-size: 150%;
+    margin-bottom: 30pt;
+  }
+  input{
+    background:rgba(0,0,0,0);
+    border-color: transparent;
+    font-size: 150%;
+    text-align: center;
+  }
+  input::placeholder{
+    
+    color: white;
+    text-decoration: underline;
   }
 
-  .clicked{
-    color:#7f8c8d;
+  h1{
+    font-size: 700%;
+  }
+  
+  h4{
+    font-size: 50px;
   }
 
   .form,
