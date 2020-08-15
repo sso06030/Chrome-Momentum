@@ -1,67 +1,67 @@
-body{
-    background-color: #6c8085;
-    color:white;
-    text-align: center;
-    line-height: 200%;
-  }
+body {
+  background-color: #6c8085;
+  color: white;
+  text-align: center;
+  line-height: 200%;
+}
 
-  .js-toDoList {
-    list-style: none;
-  }
+.js-toDoList {
+  list-style: none;
+}
 
-  button {
-    background:rgba(0,0,0,0);
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .js-form{
-    font-size: 150%;
-    margin-bottom: 30pt;
-  }
-  input{
-    background:rgba(0,0,0,0);
-    border-color: transparent;
-    font-size: 150%;
-    text-align: center;
-  }
-  input::placeholder{
-    
-    color: white;
-    text-decoration: underline;
-  }
+button {
+  background: rgba(0, 0, 0, 0);
+  border-color: transparent;
+  cursor: pointer;
+}
+.js-form {
+  font-size: 150%;
+  margin-bottom: 30pt;
+}
+input {
+  background: rgba(0, 0, 0, 0);
+  border-color: transparent;
+  font-size: 150%;
+  text-align: center;
+  color: white;
+}
+input::placeholder {
+  color: white;
+  text-decoration: underline;
+}
 
-  h1{
-    font-size: 700%;
-  }
-  
-  h4{
-    font-size: 50px;
-  }
+h1 {
+  font-size: 700%;
+}
 
-  .form,
-  .greetings {
-      display: none;
-  }
+h4 {
+  font-size: 50px;
+}
 
-  .showing {
-      display: block;
-  }
+.form,
+.greetings {
+  display: none;
+}
 
-  @keyframes fadeIn{
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+.showing {
+  display: block;
+}
 
-  .bgImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    animation:fadeIn 0.5s linear;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
